@@ -1,4 +1,6 @@
-1.ELectronic chameleon:
+1.Electronic chameleon:
+
+
 A project to replicate the colour changing power of a chameleon on a lamp.
 We begin by creating an electronic circuit which can take input as colour and give back the output as the same colour.
 An important sensor used in the project is the RGB colour sensor TCS34725, which has clear light sensing elements.
@@ -13,16 +15,20 @@ The sensor has dynamic range with adjustable integration time and gain so it is 
 
 
 2.Electronic voting machine:
+
+
 A project using Adafruit 8051 micro controller.
 The vote count is stored in EEPROM and an LCD display is provided to display the total number of votes polled and individual contestant-wise votes polled.
 An erase button is also provided in order to make sure the contents of the EEPROM is brought to zero, before the start of the polling process.
 A buzzer is provided for audio effect of the switch press. Whenever a switch is pressed, the system acknowledges the press by a short beep sound.If a voter tries to poll multiple times a longer beep sound is generated.
 There's a separate port is dedicated for 8 push-button switches for eight contestants, and a master switch for polling officer.
 
-![alt text](https://hackster.imgix.net/uploads/attachments/937795/simulation2_vAPGF7DaTE.png) - Proteus connection outline of the project
+![alt text](https://media2.giphy.com/media/3orif1zS11iWKhUJpK/source.gif)
 
 
 3.Starpointer:
+
+
 The project for astronomical telescopes that helps the observer identify objects in the sky.
 The StarPointer is designed to work with Stellarium's telescope control plugin. Its firmware has been developed to work with the Meade LX200 communication protocol
 This unit can be attached to the telescope. It communicates with the PC using the inbuilt USB peripheral of the STM32F103C8 microcontroller. 
@@ -31,7 +37,10 @@ The StarPointer uses a few onboard sensors to determine its angle and position {
 
 ![alt text](https://hackster.imgix.net/uploads/attachments/1458774/dscn3860-mid_EEOosgRl6H.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)
 
-4.3-Axis Magnetometer:
+
+4.    3-Axis Magnetometer:
+
+
 The project measure the magnitude and direction of the earth’s magnetic field. 
 It’s a low-power device and can be found in mobile phones or navigation systems to provide an accurate compass heading.
 One can also use them to detect ferrous (contains iron) metals since the iron within the metal changes the magnetic field when it’s in close proximity to the sensor.
@@ -40,6 +49,8 @@ The SCL and SDA pins will connect to the Arduino uno analog pins A5 and A4, resp
 
 
 5.Electronic code lock:
+
+
 In this project, we are building 555 Timer IC based Code Lock which has 8 buttons and one needs to press specific four buttons simultaneously to unlock the Lock.The 555 IC is configured as a Monostable Vibrator here.
 Basically in this circuit we will have an LED at the output pin 3 which turns ON when trigger is applied by pressing those specific four buttons. 
 LED remains on for some time and then turns off automatically. The on time can be calculated with this 555 monostable calculator. 
