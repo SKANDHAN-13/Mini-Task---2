@@ -1,8 +1,0 @@
-1.ELectronic chameleon:
-A project to replicate the colour changing power of a chameleon on a lamp.We begin by creating an electronic circuit which can take input as colour and give back the output as the same colour.An important sensor used in the project is the RGB colour sensor TCS34725, which has clear light sensing elements.The sensor has dynamic range with adjustable integration time and gain so it is suited for use behind darkened glass.
-
-2.Electronic voting machine:
-A project using Qt5(cross compiled for Raspian Jessie - touch compatible display),C++ software(with a plugin for QML - used for storing information in the JSON database) and Raspberry Pi-2 to create a machine that mimics the voting process.It has buttons for entering the preferred choice and shows pictures of the candidates as soon as you enter their numbers.
-
-3.Arduino Parking sensor:
-The project
