@@ -1,4 +1,4 @@
-1.Electronic chameleon:
+## 1.Electronic chameleon:
 
 
 A project to replicate the colour changing power of a chameleon on a lamp.
@@ -14,7 +14,7 @@ The sensor has dynamic range with adjustable integration time and gain so it is 
 
 
 
-2.Electronic voting machine:
+## 2.Electronic voting machine:
 
 
 A project using Adafruit 8051 micro controller.
@@ -26,7 +26,7 @@ There's a separate port is dedicated for 8 push-button switches for eight contes
 ![alt text](https://media2.giphy.com/media/3orif1zS11iWKhUJpK/source.gif)
 
 
-3.Starpointer:
+## 3.Starpointer:
 
 
 The project for astronomical telescopes that helps the observer identify objects in the sky.
@@ -38,7 +38,7 @@ The StarPointer uses a few onboard sensors to determine its angle and position {
 ![alt text](https://hackster.imgix.net/uploads/attachments/1458774/dscn3860-mid_EEOosgRl6H.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)
 
 
-4.    3-Axis Magnetometer:
+## 4. 3-Axis Magnetometer:
 
 
 The project measure the magnitude and direction of the earth’s magnetic field. 
@@ -48,7 +48,7 @@ In order to communicate with the device, we use the I2C protocol which only uses
 The SCL and SDA pins will connect to the Arduino uno analog pins A5 and A4, respectively.
 
 
-5.Electronic code lock:
+## 5.Electronic code lock:
 
 
 In this project, we are building 555 Timer IC based Code Lock which has 8 buttons and one needs to press specific four buttons simultaneously to unlock the Lock.The 555 IC is configured as a Monostable Vibrator here.
